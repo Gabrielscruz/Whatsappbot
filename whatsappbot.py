@@ -7,10 +7,10 @@ import pyodbc
 import pyautogui
 
 # configuração da conexão do sql server 
-server = 'DESKTOP-BKCTDA9\SQLEXPRESS'
-database = 'whatsapp_bot'
-username = 'Gabriel'
-password = 'Thamiel0307'
+server = 'servidor'
+database = 'banco'
+username = 'usario '
+password = 'senha'
 cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
 cmd = cnxn.cursor()
 
